@@ -1,5 +1,5 @@
  
-MODEL_NAME="deepseek-ai/DeepSeek-R1-Distill-Llama-8B"
+MODEL_NAME="deepseek-ai/DeepSeek-R1"
 
 # Set the tensor parallel size.
 TENSOR_PARALLEL_SIZE=8
@@ -7,7 +7,7 @@ TENSOR_PARALLEL_SIZE=8
 # Set the GPU memory utilization (e.g., 0.9 for 90%).
 GPU_MEMORY_UTILIZATION=0.9
 
-HF_HOME_DIR="/shared/share_mala/Leon/huggingface/cache"
+HF_HOME_DIR="/workspace/models"
 
 ENABLE_PREFIX_CACHING="--enable_prefix_caching"
 
