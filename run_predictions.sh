@@ -2,7 +2,7 @@
 # launch.sh - A script to launch the vLLM prediction pipeline
 
 # Default configuration values
-MODEL_NAME="deepseek-ai/DeepSeek-R1-Distill-Llama-8B"
+MODEL_NAME="deepseek-ai/DeepSeek-R1"
 DATASET="cais/hle"
 TEMPERATURE=0.6
 NUM_WORKERS=512
